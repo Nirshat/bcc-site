@@ -1,0 +1,55 @@
+#mobViewSidebar{
+  width:0px;
+  position:fixed;
+  right:0;
+  height: 100%;
+  z-index:1;
+  background: #fff;
+  transition: .2s;
+  /* border: 1px solid #ddd; */
+}
+
+.close{
+  padding:12px;
+  background:#ccc;
+  cursor:pointer;
+}
+.close:hover{
+  background: #333030d7;
+  color:#fff;
+}
+
+
+#mobViewSidebar > a > div{
+  /* border: 1px solid #aaa; */
+  padding:10px;
+  margin:1px 0px 1px 0px;
+  background: #fff;
+  cursor: pointer;
+} #mobViewSidebar > a > div:hover{
+  background: #5d5d5d;
+  color:#fff;
+}
+
+#mobViewSidebar  a{
+  color:#000;
+  text-decoration: none;
+}
+
+#mobViewSidebar a #mobActive{
+  background:green;
+  color:#f2f2f2;
+}
+
+
+#mobViewSidebar.active {
+  width: 200px;
+  box-shadow: 5px 5px 5px 5px #a0a0a0;
+  transition: .2s;
+}
+
+@media only screen and (min-width:1000px){
+  #mobViewSidebar{
+      width:0px !important;
+  }
+}

@@ -1,0 +1,88 @@
+
+.about-page{
+  /* border:1px solid #bebebe; */
+  padding:20px 0px 20px 0px;
+  /* background-image: url('../../IMAGES/alumnisbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+/* .aboutransbox{
+  background:#0000008f;
+  padding:50px 0px 50px 0px;
+} */
+
+
+.about-label{
+  font-weight:bold;
+  font-size:30px;
+  color:#4d4d4d;
+  text-align: center;
+  /* margin-top:10vh; */
+  margin-bottom:20px;
+  /* border:1px solid; */
+}
+
+
+
+.about-content{
+  width:90%;
+  margin: auto;
+  color:#2d2d2d;
+  /* background:#ffffffd0; */
+}
+
+
+
+
+
+.vision-mission{
+  /* border:1px solid #aaa; */
+  display:flex;
+  flex-direction: column;
+  grid-gap:20px;
+  width:90%;
+  margin: auto;
+}
+
+/* .vision-mission > *{
+  margin:10px;
+} */
+
+.vision, .mission{
+  background:#f2f2f2;
+  border:1px solid gray;
+  border-radius:5px;
+}
+
+.vision > div, .mission > div{
+  text-align: center;
+  padding:10px;
+  font-size:20px;
+  color:#f2f2f2;
+}
+
+.vision > div{
+  background: green;
+}
+
+.mission > div{
+  background: #dfaf12;
+}
+
+.vision > p, .mission > p{
+  /* border:1px solid #aaa; */
+  padding:10px 20px 10px 20px;
+}
+
+
+
+
+@media only screen and (min-width:800px){
+  .vision-mission{
+      /* border:1px solid #aaa; */
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      width:92%;
+  }
+}

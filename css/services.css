@@ -1,0 +1,66 @@
+
+body{
+  padding:0 0 20rem;    
+}
+
+.main-content{
+  /* border:1px solid; */
+  padding:1.4em;
+}
+
+.services{
+  font-weight:bold;
+  font-size:30px;
+  color:#4d4d4d;
+  text-align: center;
+  margin-bottom:20px;
+  /* border:1px solid; */
+}
+
+
+.beed-label, .bsit-label{
+  padding:1em 0;
+  font-weight: bold;
+  color:green;
+  font-size:18px;
+  /* border:1px solid; */
+}
+
+.bsit-label{
+  text-align: end;
+}
+
+
+.cont img{
+  height:15rem;
+  width:100%;
+  /* float: left; */
+  margin:0 1em 0 0;
+  /* border:1px solid; */
+}
+
+
+@media only screen and (min-width:800px){
+  body{
+      padding:0 0 20rem;    
+  }
+
+  .cont{
+    display: flex;
+  }
+
+  .cont img{
+    height:20rem;
+    width: auto;
+    max-width:100%;
+  }
+
+  #cont{
+    flex-direction: row-reverse;
+  }
+
+  #cont img{
+    margin:0 0 0 1em;
+  }
+  
+}
